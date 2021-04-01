@@ -1,0 +1,36 @@
+html, body {
+  height: 100vh;
+  font-family: "Work Sans", sans-serif, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.nav_bar {
+  position: absolute;
+  top: 0%;
+  height: 50px;
+  width: 100%;
+  text-align: right;
+}
+
+.contents {
+  top: calc(50% - 50px);
+  width: 100%;
+  text-align: center;
+  /*    height: 200px; */
+}
+
+.round_input {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  width: 80%; 
+  border:1px solid lightgrey;
+  border-radius: 25px;
+  height: 50px;   
+}
+
+/*# sourceMappingURL=styles.css.map */
