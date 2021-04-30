@@ -1,4 +1,4 @@
-$main-font: 'Arial', sans-serif;
+$main-font: 'Arial Light', sans-serif;
 
 %main-display {
     width: 100%;
@@ -7,9 +7,12 @@ $main-font: 'Arial', sans-serif;
     position: fixed;
     display: flex;
     flex-direction: column;    
-    
-    
 }
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+    
 
 html, body {
     height: 100vh;
@@ -19,6 +22,10 @@ html, body {
     overflow: hidden;
     }
 
+.btn_custom {
+    color:#3c4043; 
+    font-size: 14px;
+}
 
 .nav_bar {
     position: absolute;
